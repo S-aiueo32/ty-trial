@@ -15,6 +15,9 @@ dev = [
     "ty>=0.0.0a7",
 ]
 
+[tool.ty.environment]
+python-version = "3.13"
+
 [tool.ty.rules]
 byte-string-type-annotation = "error"
 call-non-callable = "error"
