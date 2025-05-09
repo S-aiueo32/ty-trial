@@ -74,7 +74,6 @@ By referring to [the schema](https://github.com/astral-sh/ruff/blob/2cf5cba7ff34
 | unused-ignore-comment                        | Warns when a `# type: ignore` comment has no effect.                                         | It can hide genuine issues.                                                                 |                                                  | warn   |
 | zero-stepsize-in-slice                       | Detects slice operations with a step size of zero.                                           | It raises `ValueError` at runtime.                                                          |                                                  | error  |
 
-
 By specifying these under the `[tool.ty.rules]` section in your `pyproject.toml`, you can configure each rule to `error`, `warn`, or `ignore`.
 
 ## Comparison with mypy
